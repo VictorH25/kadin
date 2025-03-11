@@ -1,0 +1,69 @@
+@media print{
+    * {
+    background:transparent !important;
+    color:#000 !important;
+    text-shadow:none !important;
+    filter:none !important;
+    -ms-filter:none !important;
+    line-height: 1.5;
+    }
+.margin-bottom-0 {
+    margin-bottom: 0px;
+}
+.print {
+    margin:0;
+    padding:0;
+    line-height:0;
+}
+
+#text-xs{
+    font-size: 8pt;
+}
+#text-sm{
+    font-size: 10pt;
+}
+#text-lg{
+    font-size: 14pt;
+}
+#text-md{
+    font-size: 12pt;
+}
+
+/*IMG*/
+#img-head{
+    width:150px;
+    height:53px;
+}
+@page {
+    margin: 0;
+    }
+
+nav, footer, video, audio, object, embed { 
+    display:none; 
+    }
+}
+
+/*Hr*/
+hr {
+  border: 0.5px dashed #111 !important;
+}
+/*Printer*/
+.print{
+  background-color: rgb(205, 212, 135);
+  color: black;
+  margin: 0 auto;
+  max-width: 530px;
+  width: 100%;
+}
+
+
+/*Print Button*/
+#btn-print{
+  margin-bottom: 5px;
+}
+
+/*Tabs Sales*/
+.nav-tabs li.nav-item a.active{
+    color: white;
+    background-color:#191a1b;
+  }

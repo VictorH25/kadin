@@ -1,0 +1,11 @@
+@media print {
+  .no-print, nav, footer, video, audio, object, embed { 
+      display:none !important; 
+  }
+
+  .print {
+      display: block !important;
+      width: 100% !important;
+  }
+
+}
